@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{{template "header" .}}
+
+<body>
+    <div class="ui containern">        
+        {{template "navbar"}} 
+        {{range .Cont}} 
+            <div class="content-bar1">
+                {{.TextHTML}} 
+            </div>            
+        {{end}}        
+    </div>
+</body>
+{{template "footer"}}
+</html>
