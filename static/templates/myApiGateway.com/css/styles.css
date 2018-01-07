@@ -1,5 +1,5 @@
 body {
-  background: #ebebeb;
+  /*background: @body-bg;*/
   color: black;
 }
 body a:link {
@@ -10,6 +10,39 @@ body a:visited {
 }
 body a:hover {
   color: #A05353;
+}
+.logo-left {
+  margin: 0;
+  padding: 0;
+}
+.logo-text {
+  padding: 0 0 0 2%;
+  font-size: 16pt;
+  margin: 0;
+  font-style: italic;
+}
+.logo {
+  border-radius: 50%;
+}
+@media (min-width: 1024px) {
+  .diagram img {
+    width: 50%;
+  }
+}
+@media (max-width: 1024px) {
+  .diagram img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .diagram img {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .diagram img {
+    width: 100%;
+  }
 }
 .top-nav-wrapper {
   background: #1B1C1D;
@@ -147,23 +180,54 @@ body a:hover {
   }
 }
 .main-page {
+  margin: 2% 0 0 0;
+  color: darkblue;
+}
+.main-segment {
+  padding: 0 0 0 0%;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .main-segment {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 1024px) {
+  .main-segment {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 768px) {
+  .main-segment {
+    font-size: 10pt;
+  }
+}
+@media (max-width: 480px) {
+  .main-segment {
+    font-size: 8pt;
+  }
+  .main-segment h2 {
+    font-size: 1.1rem;
+  }
+}
+.main-page2 {
   border: 2px solid;
   border-radius: 25px;
   color: gray;
 }
-.main-page a:link {
+.main-page2 a:link {
   color: gray;
   text-decoration: underline;
 }
-.main-page a:visited {
+.main-page2 a:visited {
   color: gray;
   text-decoration: underline;
 }
-.main-page a:hover {
+.main-page2 a:hover {
   color: white;
 }
 @media (min-width: 1024px) {
-  .main-page {
+  .main-page2 {
     width: 80%;
     margin: 0 0 0 10%;
     height: 600px;
@@ -171,7 +235,7 @@ body a:hover {
   }
 }
 @media (max-width: 1024px) {
-  .main-page {
+  .main-page2 {
     width: 80%;
     margin: 0 0 0 10%;
     height: 600px;
@@ -179,7 +243,7 @@ body a:hover {
   }
 }
 @media (max-width: 768px) {
-  .main-page {
+  .main-page2 {
     width: 100%;
     margin: 0 0 0 0;
     height: 400px;
@@ -188,7 +252,7 @@ body a:hover {
   }
 }
 @media (max-width: 480px) {
-  .main-page {
+  .main-page2 {
     width: 100%;
     margin: 0 0 0 0;
     height: 400px;

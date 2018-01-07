@@ -1,5 +1,5 @@
 body {
-  background: #ebebeb;
+  /*background: @body-bg;*/
   color: black;
 }
 body a:link {
