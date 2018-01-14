@@ -61,6 +61,12 @@ body a:hover {
 .nv-custom {
   background: #313030;
 }
+.page-title {
+  margin: 2% 0 1% 0;
+}
+.contact-page {
+  margin: 0 0 15% 0;
+}
 .content-bar1 {
   background: #313030;
   color: gray;
@@ -265,4 +271,5 @@ body a:hover {
   width: 100%;
   padding: 3% 0 3% 0;
   color: gray;
+  background: #1B1C1D;
 }
