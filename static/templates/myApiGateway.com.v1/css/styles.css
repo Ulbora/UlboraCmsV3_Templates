@@ -1,6 +1,11 @@
 body {
   /*background: @body-bg;*/
   color: black;
+  background-image: url(../images/bg.svg);
+  background-color: #616060;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 body a:link {
   color: black;
@@ -65,7 +70,9 @@ body a:hover {
   margin: 2% 0 1% 0;
 }
 .contact-page {
-  margin: 0 0 15% 0;
+  margin: 1% 0 15% 0;
+  padding: 1%;
+  background: white;
 }
 .usa {
   margin: 2% 0 2% 0;
