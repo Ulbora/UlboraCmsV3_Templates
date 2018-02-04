@@ -67,7 +67,11 @@ body a:hover {
   background: #313030;
 }
 .page-title {
-  margin: 2% 0 1% 0;
+  margin: 1% 0 1% 0;
+  width: 100%;
+}
+.header-center {
+  text-align: center;
 }
 .contact-page {
   margin: 1% 0 15% 0;
@@ -225,6 +229,15 @@ body a:hover {
   .main-segment h2 {
     font-size: 1.1rem;
   }
+}
+.main-segment a:link {
+  color: green;
+}
+.main-segment a:visited {
+  color: green;
+}
+.main-segment a:hover {
+  color: red;
 }
 .main-page2 {
   border: 2px solid;

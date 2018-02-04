@@ -59,30 +59,43 @@ var setMenu = function () {
     }
 }
 
-var loadChallenge = function(){
+var loadChallenge = function () {
     var msel = localStorage.getItem("msel");
     if (msel === "m4") {
-        $.ajax({ 
+        $.ajax({
             type: "GET",
             dataType: "json",
             url: challengeUrl,
-            success: function(data){        
-              //alert(data);
-              document.getElementById("question").value = data.question;
-              document.getElementById("key").value = data.key;
+            success: function (data) {
+                //alert(data);
+                document.getElementById("question").value = data.question;
+                document.getElementById("key").value = data.key;
             },
-            error: function(err){
+            error: function (err) {
                 console.log(JSON.stringify(err))
             }
-         });
-        
+        });
+
     }
 }
 
 
+var tst = function(){
+    alert("tst");
+}
 
 $(function () {
     $('.ui.checkbox')
         .checkbox()
         ;
 });
+
+$(function () {
+    $('.ui.accordion').accordion();
+});
+
+$(function () {
+    $('.ui.accordion').accordion('refresh');
+});
+
+
