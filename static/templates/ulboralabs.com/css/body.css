@@ -1,0 +1,18 @@
+body {
+  /*background: @body-bg;*/
+  color: black;
+  background-image: url(../images/bg.svg);
+  background-color: #616060;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body a:link {
+  color: black;
+}
+body a:visited {
+  color: black;
+}
+body a:hover {
+  color: #A05353;
+}

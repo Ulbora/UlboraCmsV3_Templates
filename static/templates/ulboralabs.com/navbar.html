@@ -1,0 +1,18 @@
+{{define "navbar"}}
+<div class="top-nav-wrapper">
+  <div class="ui container">
+    <div class="ui stackable  top menu">
+      <div class="item">
+        <a onclick="setM1();" href="/">  
+        <img class="logo" src="/templates/ulboralabs.com/images/UlboraLabs.png" alt="Avatar" style="width:80px">              
+        </a>
+      </div>
+      <a id="m1" onclick="setM1();" class="item" href="/">Home</a>
+      <a id="m2" onclick="setM2();" class="item" href="/pricing">Pricing</a>
+      <a id="m3" onclick="setM3();" class="item" href="/demo">Demo</a>
+      <a id="m4" onclick="setM4();" class="item" href="/trial">Free Trial</a>
+      <a id="m5" onclick="setM5();" class="item" href="/products">Products</a>
+    </div>
+  </div>
+</div>
+{{end}}
