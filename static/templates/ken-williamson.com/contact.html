@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{{template "header"}}
+{{template "navbar"}}
+<body>    
+    <div class="ui container main-page">
+        <div class="ui left aligned segment">
+            <div class="page-title">
+                <h3>Contact Ken</h3>
+            </div>            
+            <form class="ui form" method="post" action="/contact/send">
+                <div class="field">
+                    <label>Email Address</label>
+                    <input type="email" name="fromEmail" placeholder="yourMail@gmail.com" required>
+                </div>
+                <div class="field">
+                    <label>Message</label>
+                    <textarea type="text" name="text" placeholder="Your name, contact info and message" required></textarea>
+                </div>
+                <div class="field">
+                    <label>Challenge Question: (let's make sure you're not a machine) </label>
+                    <input name="question" type="text" value="{{.Question}}">
+                </div>
+                <div class="field">
+                    <label>Answer:</label>
+                    <input name="answer" type="text" placeholder="" required>
+                </div>
+                <div class="field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" tabindex="0" class="hidden" required>
+                        <label>I agree to the Terms and Conditions</label>
+                    </div>
+                </div>
+                <input name="key" type="hidden" value="{{.Key}}">
+                <button class="ui button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <br>
+</body>
+{{template "footer"}}
+
+</html>
