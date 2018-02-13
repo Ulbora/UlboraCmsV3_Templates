@@ -26,6 +26,7 @@
     border-radius: 50%;        
 }
 .diagram{
+    width: 60%;
     @media (min-width: 1024px) { 
         img{
             width: 50%;
@@ -41,7 +42,14 @@
             width: 90%;
         }         
     }
-    @media (max-width: 480px) {        
+    @media (max-width: 580px) {  
+        display: none;     
+        img{
+            width: 100%;
+        }
+    }
+    @media (max-width: 480px) {  
+        display: none;      
         img{
             width: 100%;
         }

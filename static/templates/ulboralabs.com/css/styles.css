@@ -49,6 +49,9 @@ body a:hover {
     width: 100%;
   }
 }
+.diagram {
+  width: 60%;
+}
 @media (min-width: 1024px) {
   .diagram img {
     width: 50%;
@@ -64,27 +67,53 @@ body a:hover {
     width: 90%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+  .diagram {
+    display: none;
+  }
   .diagram img {
     width: 100%;
   }
 }
+@media (max-width: 480px) {
+  .diagram {
+    display: none;
+  }
+  .diagram img {
+    width: 100%;
+  }
+}
+.ulboracms {
+  width: 40%;
+  height: 100%;
+}
 @media (min-width: 1024px) {
   .ulboracms img {
-    width: 30%;
+    width: 40%;
   }
 }
 @media (max-width: 1024px) {
   .ulboracms img {
-    width: 50%;
+    width: 60%;
   }
 }
 @media (max-width: 768px) {
   .ulboracms img {
-    width: 60%;
+    width: 70%;
+  }
+}
+@media (max-width: 580px) {
+  .ulboracms {
+    display: none;
+  }
+  .ulboracms img {
+    width: 80%;
   }
 }
 @media (max-width: 480px) {
+  .ulboracms {
+    display: none;
+  }
   .ulboracms img {
     width: 80%;
   }
