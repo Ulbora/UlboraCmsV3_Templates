@@ -1,0 +1,293 @@
+
+@nv-bg:  rgb(49, 48, 48);
+@nv-bg2: #575353;
+@bs-bg-dark: #343a40;
+@bs-bg-dark2: #43484D;
+@pageBackground : #F9F9F9;
+@black            : #1B1C1D;
+@import "body.less";
+
+.logo-left{    
+    margin: 0;
+    padding: 0; 
+    
+}
+.logo-text{      
+    padding: 0 0 0 2%;
+    font-size: 16pt;   
+    margin: 0;
+    font-style: italic;
+}
+
+
+
+
+.logo{
+    border-radius: 50%;        
+}
+.diagram{
+    width: 60%;
+    @media (min-width: 1024px) { 
+        img{
+            width: 50%;
+        }
+    }
+    @media (max-width: 1024px) {
+        img{
+            width: 80%;
+        }    
+    }
+    @media (max-width: 768px) {        
+        img{
+            width: 90%;
+        }         
+    }
+    @media (max-width: 580px) {  
+        display: none;     
+        img{
+            width: 100%;
+        }
+    }
+    @media (max-width: 480px) {  
+        display: none;      
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+
+.top-nav-wrapper{    
+    background: @black;
+    width: 100%;   
+    padding: 1% 0 1% 0;    
+}
+
+
+.secondary-nav-wrapper{    
+    background: rgb(228, 229, 194);
+    width: 100%;
+    padding: 1% 0 .5% 0;   
+}
+
+.page-wrapper{
+    margin: 0 0 500px 0;   
+    padding: 0 0 0 0;     
+};
+
+.nv-custom{
+    background: @nv-bg;
+}
+
+.page-title{
+    margin: 1% 0 1% 0;
+    width: 100%
+}
+.header-center{
+    text-align: center;
+}
+
+.contact-page{
+    margin: 1% 0 15% 0;
+    padding: 1%;
+    background: white;
+}
+.usa{
+    margin: 2% 0 2% 0; 
+}
+
+.content-bar1{
+    background: @nv-bg;
+    color: gray;
+    border-bottom: 2px solid;    
+    border-color: green;
+    a:link{
+        color: gray;              
+    }
+    
+    a:visited{
+        color:gray;        
+    }
+    a:hover{
+        color: white;        
+    }
+    @media (min-width: 1024px) { 
+        height: 800px;    
+        font-size: 20pt;    
+    }
+    @media (max-width: 1024px) {
+        height: 800px;    
+        font-size: 18pt;       
+    }
+    @media (max-width: 768px) {        
+        height: 600px; 
+        font-size: 14pt;            
+    }
+    @media (max-width: 480px) {        
+        height: 600px;   
+        font-size: 12pt;   
+    }
+    
+}
+
+
+.content-bar2{
+    background: @nv-bg2;
+    color: gray;
+    border-bottom: 2px solid;    
+    border-color: green;
+    a:link{
+        color: gray;
+        margin: 0 0 1% 0;
+    }
+    
+    a:visited{
+        color:gray;        
+    }
+    a:hover{
+        color: white;        
+    }
+    @media (min-width: 1024px) { 
+        height: 600px; 
+        font-size: 14pt;        
+    }
+    @media (max-width: 1024px) {
+        height: 600px;  
+        font-size: 14pt;         
+    }
+    @media (max-width: 768px) {        
+        height: 400px;   
+        font-size: 14pt;          
+    }
+    @media (max-width: 480px) {
+        font-size: 12pt;
+        height: 400px;     
+    }
+    
+}
+
+
+
+.download-page{
+    background: @nv-bg;
+    color: gray;
+    a:link{
+        color: gray;  
+        text-decoration: underline;            
+    }
+    
+    a:visited{
+        color:gray;   
+        text-decoration: underline;       
+    }
+    a:hover{
+        color: white;        
+    }
+    @media (min-width: 1024px) { 
+        height: 600px;    
+        font-size: 20pt;    
+    }
+    @media (max-width: 1024px) {
+        height: 600px;    
+        font-size: 18pt;       
+    }
+    @media (max-width: 768px) {        
+        height: 400px; 
+        font-size: 14pt;            
+    }
+    @media (max-width: 480px) {        
+        height: 400px;   
+        font-size: 12pt;   
+    }
+    
+}
+
+.main-page{
+    margin: 2% 0 0 0;
+    color: darkblue;
+}
+.main-segment{
+    padding: 0 0 0 0%;
+    text-align: left;
+    @media (min-width: 1024px) {        
+        font-size: 12pt;    
+    }
+    @media (max-width: 1024px) {
+        font-size: 12pt;        
+    }
+    @media (max-width: 768px) { 
+        font-size: 10pt;        
+    }
+    @media (max-width: 480px) { 
+        font-size: 8pt;         
+        h2 {
+            font-size: 1.1rem;
+        }
+    }
+    a:link{
+        color: green;              
+    }
+    
+    a:visited{
+        color: green;        
+    }
+    a:hover{
+        color: red;        
+    }
+}
+
+.main-page2{    
+    border: 2px solid;
+    border-radius: 25px;
+   
+    color: gray;
+    a:link{
+        color: gray;  
+        text-decoration: underline;            
+    }
+    
+    a:visited{
+        color:gray;   
+        text-decoration: underline;       
+    }
+    a:hover{
+        color: white;        
+    }
+    @media (min-width: 1024px) { 
+        width: 80%;
+        margin: 0 0 0 10%;
+        height: 600px;    
+        font-size: 20pt;    
+    }
+    @media (max-width: 1024px) {
+        width: 80%;
+        margin: 0 0 0 10%;
+        height: 600px;    
+        font-size: 18pt;       
+    }
+    @media (max-width: 768px) { 
+        width: 100%;
+        margin: 0 0 0 0;       
+        height: 400px; 
+        font-size: 14pt;    
+        border-radius: 0px;        
+    }
+    @media (max-width: 480px) { 
+        width: 100%;
+        margin: 0 0 0 0;        
+        height: 400px;   
+        font-size: 12pt; 
+        border-radius: 0px;   
+    }
+    
+}
+
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding: 3% 0 3% 0;  
+    color: gray; 
+    background: @black;
+}
+

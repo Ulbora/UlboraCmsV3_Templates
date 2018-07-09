@@ -1,0 +1,20 @@
+{{define "navbar"}}
+<div class="top-nav-wrapper">
+  <div class="ui container">
+    <div class="ui stackable inverted top menu">
+      <div class="item">
+        
+        <img class="logo" src="/templates/myApiGateway.com/images/myapigwLogo.svg" alt="Avatar" style="width:40px">
+        <a onclick="setM1();" href="/">
+        <div class="logo-text">MyApiGateway.com</div>
+        </a>
+      </div>
+      <a id="m1" onclick="setM1();" class="item" href="/">Home</a>
+      <a id="m2" onclick="setM2();" class="item" href="/pricing">Pricing</a>
+      <a id="m3" onclick="setM3();" class="item" href="/demo">Demo</a>
+      <a id="m4" onclick="setM4();" class="item" href="/trial">Free Trial</a>
+      <a id="m5" onclick="setM5();" class="item" href="/products">Products</a>
+    </div>
+  </div>
+</div>
+{{end}}
