@@ -1,0 +1,121 @@
+body {
+  /*background: @body-bg;*/
+  color: black;
+  background: #1B1C1D;
+}
+body a:link {
+  color: black;
+}
+body a:visited {
+  color: black;
+}
+body a:hover {
+  color: #A05353;
+}
+.logo-left {
+  margin: 0;
+  padding: 0;
+}
+.logo-text {
+  padding: 0 0 0 2%;
+  font-size: 16pt;
+  margin: 0;
+  font-style: italic;
+}
+.logo {
+  padding: 1%;
+}
+@media (min-width: 1024px) {
+  .logo img {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .logo img {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .logo img {
+    width: 100%;
+  }
+}
+.ulboracms {
+  width: 40%;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .ulboracms img {
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .ulboracms img {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .ulboracms img {
+    width: 70%;
+  }
+}
+@media (max-width: 580px) {
+  .ulboracms {
+    display: none;
+  }
+  .ulboracms img {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .ulboracms {
+    display: none;
+  }
+  .ulboracms img {
+    width: 80%;
+  }
+}
+.top-nav-wrapper {
+  background: #1B1C1D;
+  width: 100%;
+  padding: 1% 0 1% 0;
+}
+.secondary-nav-wrapper {
+  background: #e4e5c2;
+  width: 100%;
+  padding: 1% 0 .5% 0;
+}
+.page-wrapper {
+  margin: 0 0 500px 0;
+  padding: 0 0 0 0;
+}
+.nv-custom {
+  background: #313030;
+}
+.page-title {
+  margin: 1% 0 1% 0;
+  width: 100%;
+}
+.header-center {
+  text-align: center;
+}
+.contact-page {
+  margin: 1% 0 15% 0;
+  padding: 1%;
+  background: white;
+}
+.usa {
+  margin: 2% 0 2% 0;
+}
+.footer {
+  text-align: center;
+  width: 100%;
+  padding: 3% 0 3% 0;
+  color: gray;
+  background: #1B1C1D;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{{template "header" .}}
+{{template "navbar"}}
+<body onload="setMenu(), loadChallenge();">   
+    <div class="ui segment main-page">
+        {{range .Cont}}
+        <div class="">
+            {{.TextHTML}}
+        </div>
+        {{end}}
+    </div>
+</body>
+{{template "footer"}}
+</html>
