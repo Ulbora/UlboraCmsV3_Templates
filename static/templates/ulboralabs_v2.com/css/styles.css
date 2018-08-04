@@ -45,6 +45,200 @@ body a:hover {
     width: 100%;
   }
 }
+.top-nav-wrapper {
+  background: #1B1C1D;
+  width: 100%;
+  padding: 1% 0 1% 0;
+}
+.secondary-nav-wrapper {
+  background: #e4e5c2;
+  width: 100%;
+  padding: 1% 0 .5% 0;
+}
+.page-wrapper {
+  margin: 0 0 500px 0;
+  padding: 0 0 0 0;
+}
+.nv-custom {
+  background: #313030;
+}
+.page-title {
+  margin: 1% 0 1% 0;
+  width: 100%;
+}
+.header-center {
+  text-align: center;
+}
+.contact-page {
+  margin: 1% 0 15% 0;
+  padding: 1%;
+  background: white;
+}
+.usa {
+  margin: 2% 0 2% 0;
+}
+.main-segment {
+  padding: 0 0 0 0%;
+  text-align: left;
+  background: white;
+}
+@media (min-width: 1024px) {
+  .main-segment {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 1024px) {
+  .main-segment {
+    font-size: 12pt;
+  }
+}
+@media (max-width: 768px) {
+  .main-segment {
+    border-radius: 5px;
+    margin: 0 2.5% 0 2.5%;
+    font-size: 10pt;
+  }
+}
+@media (max-width: 480px) {
+  .main-segment {
+    border-radius: 5px;
+    margin: 0 4% 0 4%;
+    font-size: 8pt;
+  }
+  .main-segment h2 {
+    font-size: 1.1rem;
+  }
+}
+.main-segment a:link {
+  color: green;
+}
+.main-segment a:visited {
+  color: green;
+}
+.main-segment a:hover {
+  color: red;
+}
+.row-1 {
+  background: #03c00d;
+}
+@media (min-width: 1024px) {
+  .row-1 {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-1 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-1 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-1 {
+    padding: 2% 0 0 0;
+  }
+}
+.row-2 {
+  background: #b2e6b7;
+}
+@media (min-width: 1024px) {
+  .row-2 {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-2 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-2 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-2 {
+    padding: 2% 0 0 0;
+  }
+}
+.row-3 {
+  background: #d4c7f1;
+}
+@media (min-width: 1024px) {
+  .row-3 {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-3 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-3 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-3 {
+    padding: 2% 0 0 0;
+  }
+}
+.row-4 {
+  background: white;
+}
+@media (min-width: 1024px) {
+  .row-4 {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-4 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-4 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-4 {
+    padding: 2% 0 0 0;
+  }
+}
+.row-5 {
+  background: white;
+  border-bottom: 1px solid black;
+}
+@media (min-width: 1024px) {
+  .row-5 {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-5 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-5 {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-5 {
+    padding: 2% 0 0 0;
+  }
+}
 .ulboracms {
   width: 40%;
   height: 100%;
@@ -79,38 +273,6 @@ body a:hover {
   .ulboracms img {
     width: 80%;
   }
-}
-.top-nav-wrapper {
-  background: #1B1C1D;
-  width: 100%;
-  padding: 1% 0 1% 0;
-}
-.secondary-nav-wrapper {
-  background: #e4e5c2;
-  width: 100%;
-  padding: 1% 0 .5% 0;
-}
-.page-wrapper {
-  margin: 0 0 500px 0;
-  padding: 0 0 0 0;
-}
-.nv-custom {
-  background: #313030;
-}
-.page-title {
-  margin: 1% 0 1% 0;
-  width: 100%;
-}
-.header-center {
-  text-align: center;
-}
-.contact-page {
-  margin: 1% 0 15% 0;
-  padding: 1%;
-  background: white;
-}
-.usa {
-  margin: 2% 0 2% 0;
 }
 .footer {
   text-align: center;
