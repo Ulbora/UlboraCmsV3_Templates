@@ -30,38 +30,27 @@ var setMenu = function () {
         document.getElementById("m2").classList.remove('active');
         document.getElementById("m3").classList.remove('active');
         document.getElementById("m4").classList.remove('active');
-        document.getElementById("m5").classList.remove('active');
     } else if (msel === "m2") {
         document.getElementById("m2").classList.add('active');
         document.getElementById("m1").classList.remove('active');
         document.getElementById("m3").classList.remove('active');
         document.getElementById("m4").classList.remove('active');
-        document.getElementById("m5").classList.remove('active');
     } else if (msel === "m3") {
         document.getElementById("m3").classList.add('active');
         document.getElementById("m1").classList.remove('active');
         document.getElementById("m2").classList.remove('active');
         document.getElementById("m4").classList.remove('active');
-        document.getElementById("m5").classList.remove('active');
     } else if (msel === "m4") {
         document.getElementById("m4").classList.add('active');
         document.getElementById("m1").classList.remove('active');
         document.getElementById("m2").classList.remove('active');
         document.getElementById("m3").classList.remove('active');
-        document.getElementById("m5").classList.remove('active');
     }
-    else if (msel === "m5") {
-        document.getElementById("m5").classList.add('active');
-        document.getElementById("m1").classList.remove('active');
-        document.getElementById("m2").classList.remove('active');
-        document.getElementById("m3").classList.remove('active');
-        document.getElementById("m4").classList.remove('active');
-    }else{
+    else {
         document.getElementById("m1").classList.add('active');
         document.getElementById("m2").classList.remove('active');
         document.getElementById("m3").classList.remove('active');
         document.getElementById("m4").classList.remove('active');
-        document.getElementById("m5").classList.remove('active');
     }
 }
 
@@ -86,7 +75,21 @@ var loadChallenge = function () {
 }
 
 
-var tst = function(){
+var loadMenu = function (val) {
+    if(val === "home"){
+        setM1();
+    }else if(val === "services"){
+        setM2()
+    }else if(val === "products"){
+        setM3()
+    }else if(val === "partners"){
+        setM4()
+    }
+    //alert(val);
+}
+
+
+var tst = function () {
     alert("tst");
 }
 

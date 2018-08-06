@@ -80,7 +80,6 @@ body a:hover {
 .main-segment {
   padding: 0 0 0 0%;
   text-align: left;
-  background: white;
 }
 @media (min-width: 1024px) {
   .main-segment {
@@ -118,8 +117,37 @@ body a:hover {
 .main-segment a:hover {
   color: red;
 }
+.main-title {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 100pt;
+  }
+}
+@media (max-width: 1024px) {
+  .main-title {
+    font-size: 60pt;
+  }
+}
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 50pt;
+  }
+}
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 40pt;
+  }
+}
 .row-1 {
-  background: #03c00d;
+  background-image: url(../images/bg.svg);
+  background-color: #616060;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 @media (min-width: 1024px) {
   .row-1 {
@@ -143,7 +171,7 @@ body a:hover {
   }
 }
 .row-2 {
-  background: #b2e6b7;
+  background: #ccd3e9;
 }
 @media (min-width: 1024px) {
   .row-2 {
@@ -167,7 +195,7 @@ body a:hover {
   }
 }
 .row-3 {
-  background: #d4c7f1;
+  background: #e3e3eb;
 }
 @media (min-width: 1024px) {
   .row-3 {
@@ -191,7 +219,7 @@ body a:hover {
   }
 }
 .row-4 {
-  background: white;
+  background: #eeeef8;
 }
 @media (min-width: 1024px) {
   .row-4 {
@@ -236,6 +264,31 @@ body a:hover {
 }
 @media (max-width: 480px) {
   .row-5 {
+    padding: 2% 0 0 0;
+  }
+}
+.row-product {
+  background: white;
+  border-bottom: 1px solid black;
+}
+@media (min-width: 1024px) {
+  .row-product {
+    font-size: 14pt;
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .row-product {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  .row-product {
+    padding: 2% 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .row-product {
     padding: 2% 0 0 0;
   }
 }

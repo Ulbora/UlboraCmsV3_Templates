@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-{{template "header" .}}
-{{template "navbar"}}
-<body onload="setMenu(), loadChallenge();">   
+{{template "header" .}} {{template "navbar"}}
+
+<body onload="setMenu(), loadChallenge();">
     <div class="main-segment">
         {{range .Cont}}
         <div class="">
-            {{.TextHTML}}
+            <script type="text/javascript">
+                loadMenu({{.Category}});
+            </script> {{.TextHTML}}
         </div>
         {{end}}
     </div>
 </body>
 {{template "footer"}}
+
 </html>

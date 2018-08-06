@@ -9,10 +9,15 @@
 
 @row-1-bg: rgb(3, 192, 13);
 
-@row-2-bg: rgb(178, 230, 183);
+@row-2-bg: rgb(204, 211, 233);
 
 
-@row-3-bg: rgb(212, 199, 241);
+@row-3-bg: rgb(227, 227, 235);
+
+
+@row-4-bg: rgb(238, 238, 248);
+
+@row-5-bg: rgb(238, 238, 248);
 
 body{
     /*background: @body-bg;*/
@@ -155,7 +160,7 @@ body{
 .main-segment{
     padding: 0 0 0 0%;
     text-align: left;
-    background: white;
+    // background: white;
     
     @media (min-width: 1024px) {        
         font-size: 12pt;    
@@ -188,8 +193,31 @@ body{
     }
 }
 
+.main-title{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    @media (min-width: 1024px) {
+        font-size: 100pt; 
+    }
+    @media (max-width: 1024px) {
+        font-size: 60pt; 
+    }
+    @media (max-width: 768px) { 
+        font-size: 50pt; 
+    }
+    @media (max-width: 480px) { 
+        font-size: 40pt; 
+    }
+}
+
 .row-1{
-    background: @row-1-bg;
+    //background: @row-1-bg;
+    background-image: url(../images/bg.svg);  
+    background-color: rgb(97, 96, 96);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    color: white;  
 
     @media (min-width: 1024px) {   
         font-size: 14pt;    
@@ -248,7 +276,7 @@ body{
 
 
 .row-4{
-    background:white;
+    background: @row-4-bg;
 
     @media (min-width: 1024px) {   
         font-size: 14pt;    
@@ -267,6 +295,27 @@ body{
 
 
 .row-5{
+    background:white;
+    border-bottom: 1px solid black;
+
+    @media (min-width: 1024px) {   
+        font-size: 14pt;    
+        padding: 2% 0 0 0;        
+    }
+    @media (max-width: 1024px) {
+        padding: 2% 0 0 0;    
+    }
+    @media (max-width: 768px) { 
+        padding: 2% 0 0 0;  
+    }
+    @media (max-width: 480px) {  
+        padding: 2% 0 0 0;
+    }
+}
+
+
+
+.row-product{
     background:white;
     border-bottom: 1px solid black;
 
